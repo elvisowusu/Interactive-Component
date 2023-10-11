@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    
+}
+.mainPage{
+    height: 380px;
+    width: 360px;
+    background-color:rgb(5, 5, 15);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+.thankYouIcon{
+    width: 8.6rem;
+    height: 6.8rem;
+}
+
+.selectMessage{
+    background-color: #39291dff;
+    border-radius: 5rem;
+    width: 11rem;
+    padding:0.4rem 1rem; 
+    margin:0.7rem 0rem 0.5rem 0rem;
+}
+.message{
+    border:none;
+    color: rgb(236, 105, 57);
+    font-weight: 400;
+}
+
+.thankYouMessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thankYouMessage> h1{
+    margin-bottom: 0.7rem;
+}
+.thankYouMessage > p{
+    color: hsl(217, 12%, 63%);
+}
+@media screen and (max-width:375px){
+    
+    .mainPage{
+        height: 370px;
+        width: 300px;
+    }
+}

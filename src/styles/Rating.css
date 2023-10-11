@@ -1,0 +1,98 @@
+*{
+    outline: none;
+    border: none;
+}
+.main{
+    height: 380px;
+    width: 330px;
+    background-color:rgb(5, 5, 15);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: white;
+    padding: 0;
+    margin-bottom: 0.7rem;
+    font-weight: 700;
+}
+
+p{
+    color: #9299a3;
+    font-weight: 400;
+    font-size: 15px;
+}
+.starIcon{
+    padding: 0.7rem;
+    color: hsl(25, 98%, 51%);
+    background-color: #272e38;
+    border-radius: 50%;
+    margin: 0.7rem 0;
+    font-size: 1.3rem;
+}
+
+.top{
+    padding: 0;
+    margin: 0.6rem 0;
+}
+
+.starIcon:hover{
+    background-color: hsl(25, 98%, 49%);
+    color: white;
+    cursor: pointer;
+}
+
+.options{
+    padding: 1rem 1.4rem;
+    border-radius: 50%;
+    color: #9299a3;
+    outline: none;
+    background-color: #2a2e3079;
+    font-weight: 400;
+    margin: 1.7rem 0rem;
+}
+
+.options:hover{
+    color:#f5fbff;
+    background-color: #fd7610;
+}
+
+
+.options:active{
+    background-color:#a6a9af ;
+    color:white;
+}
+
+.submit{
+    border-radius: 1.7rem;
+    padding:0.9rem 0;
+    background-color: #fc7613;
+    color: white;
+    font-size: 1rem;
+}
+
+.submit:hover{
+    background-color: #ffffff;
+    color: #d6874d;
+    cursor: pointer;
+}
+.submit:active{
+    background-color: rgba(255, 255, 255, 0.763);
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.errorMessage{
+    color: #fc7613;
+}
+@media screen and (max-width:375px){
+    .submit{
+        padding: 1rem 0;
+    }
+    .main{
+        height: 370px;
+        width: 300px;
+    }
+}
